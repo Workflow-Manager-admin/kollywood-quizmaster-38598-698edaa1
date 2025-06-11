@@ -98,3 +98,12 @@ javascript modules 84.4 KiB
     ./.ve/EditorOverlay.jsx 1.58 KiB [built]
     ./.ve/SidePanel.js 7.93 KiB [built]
 webpack 5.99.9 compiled successfully in 334 ms
+assets by path *.js 1.49 MiB
+  asset bundle.js 1.48 MiB [emitted] (name: main)
+  asset main.7a1f21ae2c0e9567be3c.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 728 bytes [emitted]
+asset main.7a1f21ae2c0e9567be3c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.49 MiB = bundle.js 1.48 MiB main.7a1f21ae2c0e9567be3c.hot-update.js 854 bytes
+cached modules 1.33 MiB [cached] 52 modules
+runtime modules 27.5 KiB 14 modules
+webpack 5.99.9 compiled successfully in 125 ms
