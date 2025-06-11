@@ -22,4 +22,379 @@ modules by path ./.ve/ 15.1 KiB
     ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1573 ms
+webpack 5.99.9 compiled successfully in 1582 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.42 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.947b9b8de1670ecd4f55.hot-update.js 18.8 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.947b9b8de1670ecd4f55.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.42 MiB = bundle.js 1.41 MiB main.947b9b8de1670ecd4f55.hot-update.js 18.8 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 12.2 KiB
+  ./src/App.js 7.4 KiB [built] [code generated]
+  ./src/api/tmdb.js 4.79 KiB [built] [code generated]
+
+ERROR in ./src/App.js 4:0-51
+Module not found: Error: Can't resolve './components/LoginScreen' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 5:0-47
+Module not found: Error: Can't resolve './components/Dashboard' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/BlurredPosterQuiz' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-67
+Module not found: Error: Can't resolve './components/CharacterMovieMatch' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-49
+Module not found: Error: Can't resolve './components/MovieBingo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-55
+Module not found: Error: Can't resolve './components/MovieTimeline' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 12:0-59
+Module not found: Error: Can't resolve './components/ProgressSummary' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+9 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 9 errors in 244 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.35f40629429230a4d02b.hot-update.js 17.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.35f40629429230a4d02b.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.41 MiB main.35f40629429230a4d02b.hot-update.js 17.3 KiB
+cached modules 1.27 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 10.1 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/LoginScreen.js 2.71 KiB [built] [code generated]
+
+ERROR in ./src/App.js 5:0-47
+Module not found: Error: Can't resolve './components/Dashboard' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/BlurredPosterQuiz' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-67
+Module not found: Error: Can't resolve './components/CharacterMovieMatch' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-49
+Module not found: Error: Can't resolve './components/MovieBingo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-55
+Module not found: Error: Can't resolve './components/MovieTimeline' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 12:0-59
+Module not found: Error: Can't resolve './components/ProgressSummary' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+8 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 8 errors in 71 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.0847777f8f2df49bc4f6.hot-update.js 20.6 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.0847777f8f2df49bc4f6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.42 MiB main.0847777f8f2df49bc4f6.hot-update.js 20.6 KiB
+cached modules 1.27 MiB [cached] 43 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 13 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/Dashboard.js 5.63 KiB [built] [code generated]
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/BlurredPosterQuiz' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-67
+Module not found: Error: Can't resolve './components/CharacterMovieMatch' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-49
+Module not found: Error: Can't resolve './components/MovieBingo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-55
+Module not found: Error: Can't resolve './components/MovieTimeline' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 12:0-59
+Module not found: Error: Can't resolve './components/ProgressSummary' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+7 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 7 errors in 86 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.accfab5aace6f68baa25.hot-update.js 19.1 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.accfab5aace6f68baa25.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.42 MiB main.accfab5aace6f68baa25.hot-update.js 19.1 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 11.6 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/ProgressSummary.js 4.22 KiB [built] [code generated]
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/BlurredPosterQuiz' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-67
+Module not found: Error: Can't resolve './components/CharacterMovieMatch' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-49
+Module not found: Error: Can't resolve './components/MovieBingo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-55
+Module not found: Error: Can't resolve './components/MovieTimeline' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 6 errors in 56 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.47 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.0cc603ba063214f07f3f.hot-update.js 28 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.0cc603ba063214f07f3f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.47 MiB = bundle.js 1.44 MiB main.0cc603ba063214f07f3f.hot-update.js 28 KiB
+cached modules 1.28 MiB [cached] 45 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 19 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/BlurredPosterQuiz.js 11.6 KiB [built] [code generated]
+
+ERROR in ./src/App.js 7:0-67
+Module not found: Error: Can't resolve './components/CharacterMovieMatch' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-49
+Module not found: Error: Can't resolve './components/MovieBingo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-55
+Module not found: Error: Can't resolve './components/MovieTimeline' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 5 errors in 101 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.47 MiB
+  asset bundle.js 1.45 MiB [emitted] (name: main)
+  asset main.5b1e0cc9c38a5e7360b8.hot-update.js 22 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.5b1e0cc9c38a5e7360b8.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.47 MiB = bundle.js 1.45 MiB main.5b1e0cc9c38a5e7360b8.hot-update.js 22 KiB
+cached modules 1.29 MiB [cached] 46 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 14.2 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/CharacterMovieMatch.js 6.78 KiB [built] [code generated]
+
+ERROR in ./src/App.js 8:0-49
+Module not found: Error: Can't resolve './components/MovieBingo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-55
+Module not found: Error: Can't resolve './components/MovieTimeline' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 4 errors in 71 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.48 MiB
+  asset bundle.js 1.46 MiB [emitted] (name: main)
+  asset main.84746eca7ef2bdcc67b9.hot-update.js 23.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.84746eca7ef2bdcc67b9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.48 MiB = bundle.js 1.46 MiB main.84746eca7ef2bdcc67b9.hot-update.js 23.4 KiB
+cached modules 1.3 MiB [cached] 47 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 15.5 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/MovieBingo.js 8.12 KiB [built] [code generated]
+
+ERROR in ./src/App.js 9:0-55
+Module not found: Error: Can't resolve './components/MovieTimeline' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 75 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.49 MiB
+  asset bundle.js 1.47 MiB [emitted] (name: main)
+  asset main.75186dd22ed4cfeacf22.hot-update.js 21.8 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.75186dd22ed4cfeacf22.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.49 MiB = bundle.js 1.47 MiB main.75186dd22ed4cfeacf22.hot-update.js 21.8 KiB
+cached modules 1.3 MiB [cached] 48 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 14.1 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/MovieTimeline.js 6.73 KiB [built] [code generated]
+
+ERROR in ./src/App.js 10:0-53
+Module not found: Error: Can't resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+resolve './components/SpinTheWheel' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+  using description file: /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/package.json (relative path: ./src/components/SpinTheWheel)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/SpinTheWheel doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/SpinTheWheel.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/SpinTheWheel.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/SpinTheWheel doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+  using description file: /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/package.json (relative path: ./src/components/CastCombo)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 68 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.5 MiB
+  asset bundle.js 1.48 MiB [emitted] (name: main)
+  asset main.9e461f21eb46e6acdfe0.hot-update.js 22.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.9e461f21eb46e6acdfe0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.5 MiB = bundle.js 1.48 MiB main.9e461f21eb46e6acdfe0.hot-update.js 22.4 KiB
+cached modules 1.31 MiB [cached] 49 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 14.5 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/SpinTheWheel.js 7.13 KiB [built] [code generated]
+
+ERROR in ./src/App.js 11:0-47
+Module not found: Error: Can't resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+resolve './components/CastCombo' in '/home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src'
+  using description file: /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/package.json (relative path: ./src/components/CastCombo)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/kollywood-quizmaster-38598-698edaa1/kollywood_quizmaster/src/components/CastCombo doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 74 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.51 MiB
+  asset bundle.js 1.48 MiB [emitted] (name: main)
+  asset main.6100343cabe01456d255.hot-update.js 21.6 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.6100343cabe01456d255.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.51 MiB = bundle.js 1.48 MiB main.6100343cabe01456d255.hot-update.js 21.6 KiB
+cached modules 1.32 MiB [cached] 50 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 14.1 KiB
+  ./src/App.js 7.4 KiB [code generated]
+  ./src/components/CastCombo.js 6.67 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 67 ms
