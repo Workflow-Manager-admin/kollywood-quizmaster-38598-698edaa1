@@ -32,17 +32,34 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser or externally (see instructions below).
 
-**To access the app from a remote or cloud domain (e.g., vscode-internal-82962-beta.beta01.cloud.kavia.ai:3000) without 'Invalid Host header' errors:**
-- The `start` script already includes required flags, but ensure you run:
+---
+
+### Remote/Cloud Access (No 'Invalid Host header' errors!)
+
+If you want to access the app from a remote URL/domain (e.g., `vscode-internal-82962-beta.beta01.cloud.kavia.ai:3000`) in the browser:
+
+**The following configuration is already set up for you:**
+- The development server is started with `HOST=0.0.0.0` and the appropriate flags `--host 0.0.0.0 --disable-host-check`.
+- An `.env` file with `HOST=0.0.0.0` is present.
+
+**All you have to do:**
+- Run
   ```
   npm start
   ```
-- If you see 'Invalid Host header', make sure you started the app from within the `kollywood_quizmaster` directory, or set the following environment variable (if running manually):
-  ```
-  HOST=0.0.0.0 npm start
-  ```
+  from inside the `kollywood_quizmaster/` directory.
+
+**Troubleshooting:**
+- If you still see 'Invalid Host header':
+  1. Ensure you are using the correct port and domain (matching the start output, e.g. `:3000`).
+  2. Make sure the `.env` file is present with `HOST=0.0.0.0` (already included, but double-check).
+  3. Try running `HOST=0.0.0.0 npm start` directly if necessary.
+
+**You should now be able to access the app from any remote/cloud host without host header errors.**
+
+---
 
 ### `npm test`
 
