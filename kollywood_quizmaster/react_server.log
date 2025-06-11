@@ -41,3 +41,41 @@ javascript modules 84.4 KiB
     ./.ve/EditorOverlay.jsx 1.58 KiB [built]
     ./.ve/SidePanel.js 7.93 KiB [built]
 webpack 5.99.9 compiled successfully in 573 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.48 MiB [cached] 1 asset
+asset index.html 1.92 KiB [emitted]
+cached modules 1.25 MiB (javascript) 27.5 KiB (runtime) [cached] 51 modules
+javascript modules 84.4 KiB
+  modules by path ./src/ 72.3 KiB
+    modules by path ./src/components/*.js 59.5 KiB
+      ./src/components/LoginScreen.js 2.71 KiB [built]
+      ./src/components/Dashboard.js 5.63 KiB [built]
+      + 7 modules
+    modules by path ./src/*.js 7.91 KiB
+      ./src/index.js 530 bytes [built]
+      ./src/App.js 7.4 KiB [built]
+    ./src/api/tmdb.js 4.79 KiB [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+webpack 5.99.9 compiled successfully in 535 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.48 MiB [cached] 1 asset
+asset index.html 1.92 KiB [emitted]
+cached modules 1.25 MiB (javascript) 27.5 KiB (runtime) [cached] 51 modules
+javascript modules 84.4 KiB
+  modules by path ./src/ 72.3 KiB
+    modules by path ./src/components/*.js 59.5 KiB
+      ./src/components/LoginScreen.js 2.71 KiB [built]
+      ./src/components/Dashboard.js 5.63 KiB [built]
+      + 7 modules
+    modules by path ./src/*.js 7.91 KiB
+      ./src/index.js 530 bytes [built]
+      ./src/App.js 7.4 KiB [built]
+    ./src/api/tmdb.js 4.79 KiB [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+webpack 5.99.9 compiled successfully in 439 ms

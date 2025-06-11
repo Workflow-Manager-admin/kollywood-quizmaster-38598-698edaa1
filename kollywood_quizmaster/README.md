@@ -34,6 +34,16 @@ In the project directory, you can run:
 Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+**To access the app from a remote or cloud domain (e.g., vscode-internal-82962-beta.beta01.cloud.kavia.ai:3000) without 'Invalid Host header' errors:**
+- The `start` script already includes required flags, but ensure you run:
+  ```
+  npm start
+  ```
+- If you see 'Invalid Host header', make sure you started the app from within the `kollywood_quizmaster` directory, or set the following environment variable (if running manually):
+  ```
+  HOST=0.0.0.0 npm start
+  ```
+
 ### `npm test`
 
 Launches the test runner in interactive watch mode.
